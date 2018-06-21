@@ -4,3 +4,4 @@ dotnet: 2.0.0
 solution: ./MySolution/MySolution.sln
 script:
   - dotnet restore ./MySolution/MySolution.sln
+  - dotnet test ./MySolution/MyNetStandard.Tests.csproj
