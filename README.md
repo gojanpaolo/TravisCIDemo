@@ -8,5 +8,5 @@
 - [Embedding Status Image](https://docs.travis-ci.com/user/status-images/)
 
 ### Notes
-- Targeted .NET Framework 4.5.2
-  - .NET Framework 4.7.2 is not compatible with TravisCI as of 6/21/2018
+- .NET Framework 4.7.2 is not compatible with TravisCI as of 6/21/2018
+  - .NET Framework 4.5.2 verified to be working
