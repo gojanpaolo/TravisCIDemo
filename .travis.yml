@@ -1,5 +1,6 @@
 language: csharp
 mono: none
+dotnet: 2.1.0
 solution: ./MySolution/MySolution.sln
-install:
-  - nuget restore ./MySolution/MySolution.sln
+script:
+  - dotnet restore ./MySolution/MySolution.sln
