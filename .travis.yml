@@ -2,7 +2,7 @@ dist: trusty
 sudo: required
 language: csharp
 mono: none
-dotnet: 2.0.0
+dotnet: 2.1.300
 script:
   - dotnet restore ./MySolution/MySolution.sln
   - dotnet test ./MySolution/MyNetStandard.Tests/MyNetStandard.Tests.csproj
